@@ -1,0 +1,16 @@
+{
+  "name": "@scorpion/backend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:worker": "nodemon src/worker.js",
+    "start": "node src/server.js",
+    "start:worker": "node src/worker.js",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
